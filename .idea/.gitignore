@@ -1,2 +1,4 @@
 # Default ignored files
 /workspace.xml
+../spring-aop/target/
+../spring-aop/*.impl
