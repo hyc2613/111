@@ -6,6 +6,7 @@ import org.springframework.aop.framework.AopContext;
 public class DefaultCalculate implements Calculate {
     @Override
     public int add(int a, int b) {
+        System.out.println("invoke add method...");
         return a+b;
     }
 
